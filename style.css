@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  height: 100vh;          
+  flex-direction: column; 
+  margin: 0;
+}
+
+table{
+    width: 600px;
+    height: 300px;
+    border: 5px solid red;    
+}
+table * {
+    border: 3px solid blue;
+}
+thead * {
+    background-color: palegoldenrod;
+}
+tbody tr:nth-of-type(odd){
+    background-color:grey;
+}
+tbody tr:nth-of-type(even){
+    background-color: yellow;
+}
+tbody td:first-child{
+    background-color: aqua;  
+}
+th,td{
+    text-align: center;
+}
+tfoot *{
+    background-color: rgb(212, 99, 99);
+}
+
