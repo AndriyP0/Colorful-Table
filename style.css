@@ -1,4 +1,4 @@
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;    
@@ -12,17 +12,18 @@ table{
     height: 300px;
     border: 5px solid red;    
 }
-table * {
+td,
+th{
     border: 3px solid blue;
-}
-thead * {
+} 
+thead >tr {
     background-color: palegoldenrod;
 }
 tbody tr:nth-of-type(odd){
     background-color:grey;
 }
 tbody tr:nth-of-type(even){
-    background-color: yellow;
+    background-color: rgb(224, 224, 148);
 }
 tbody td:first-child{
     background-color: aqua;  
@@ -30,7 +31,29 @@ tbody td:first-child{
 th,td{
     text-align: center;
 }
-tfoot *{
+tfoot >tr{
     background-color: rgb(212, 99, 99);
-}
+} */
 
+table{
+    width: 40%;
+    border: 3px solid red;
+}
+td,th{
+    border:2px solid blue;
+}
+tfoot  {
+    background-color: #ff6f6fd1;
+}
+thead{
+    background-color: #ffe0d5;
+}
+tbody td:first-child{
+    background-color: aqua;
+}
+tbody tr:nth-of-type(odd){
+    background-color: rgb(199, 204, 131);
+}
+tbody tr:nth-of-type(even){
+    background-color: silver;
+}
