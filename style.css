@@ -1,41 +1,6 @@
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;    
-  height: 100vh;          
-  flex-direction: column; 
-  margin: 0;
-}
 
 table{
-    width: 600px;
-    height: 300px;
-    border: 5px solid red;    
-}
-td,
-th{
-    border: 3px solid blue;
-} 
-thead >tr {
-    background-color: palegoldenrod;
-}
-tbody tr:nth-of-type(odd){
-    background-color:grey;
-}
-tbody tr:nth-of-type(even){
-    background-color: rgb(224, 224, 148);
-}
-tbody td:first-child{
-    background-color: aqua;  
-}
-th,td{
-    text-align: center;
-}
-tfoot >tr{
-    background-color: rgb(212, 99, 99);
-} */
-
-table{
+    margin: auto;
     width: 40%;
     border: 3px solid red;
 }
@@ -57,3 +22,8 @@ tbody tr:nth-of-type(odd){
 tbody tr:nth-of-type(even){
     background-color: silver;
 }
+caption{
+    color: red;
+}
+caption::after{content: "#5";
+color: blueviolet;}
